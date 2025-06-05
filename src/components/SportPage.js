@@ -3,7 +3,7 @@ import { useParams, useNavigate } from 'react-router-dom';
 import { fetchUpcomingGames } from '../utils/api';
 import { BetsContext } from '../App';
 
-const leagueMap = { nba: 1, mlb: 2, wnba: 3 };
+const leagueMap = { nba: 1, mlb: 2, wnba: 3, golf: 4, nascar: 5, soccer: 6, mma: 7, tennis: 8 };
 
 export default function SportPage() {
   const { key } = useParams();

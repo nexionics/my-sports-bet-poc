@@ -2,7 +2,7 @@
   "name": "my-sports-bet-poc",
   "version": "0.1.0",
   "private": true,
-  "proxy": "https://api-sports.io",
+  "proxy": "https://api.sportsdata.io",
   "dependencies": {
     "@testing-library/dom": "^10.4.0",
     "@testing-library/jest-dom": "^6.6.3",
